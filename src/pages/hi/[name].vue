@@ -2,13 +2,13 @@
 <template>
   <div>
     <p class="text-4xl">
-      <Icon class="iconify inline-block" icon="carbon:pedestrian" />
+      <carbon-pedestrian class="iconify inline-block" />
     </p>
     <p>
-      {{ t('intro.hi', {name}) }}
+      Hi, {{ name }}
     </p>
     <p class="text-sm opacity-50">
-      <em>{{ t('intro.dynamic-route') }}</em>
+      <em> Demo of dynamic route</em>
     </p>
 
     <div>
@@ -16,7 +16,7 @@
         class="btn m-3 text-sm mt-8"
         @click="router.back()"
       >
-        {{ t('button.back') }}
+        Back
       </button>
     </div>
   </div>
@@ -24,7 +24,6 @@
 
 <script setup lang='ts'>
 import { useRouter } from 'vue-router'
-import { useI18n } from 'vue-i18n'
 import { defineProps } from 'vue'
 
 const props = defineProps({
@@ -35,5 +34,4 @@ const props = defineProps({
 })
 
 const router = useRouter()
-const { t } = useI18n()
 </script>

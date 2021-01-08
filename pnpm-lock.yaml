@@ -28,7 +28,7 @@ devDependencies:
   vite-plugin-icons: 0.2.1_061882b4c0f799c7aef88e3e6cce6699
   vite-plugin-md: 0.2.1_4d70cda3c98fc4a1ab7ad1112d4bc930
   vite-plugin-pwa: 0.3.2_vite@2.0.0-beta.10
-  vite-plugin-voie: 0.7.1_cc0b40294df509831d72a57e9d5659f0
+  vite-plugin-voie: 0.7.2_cc0b40294df509831d72a57e9d5659f0
   vite-ssg: 0.2.0_437dc0204f8b7c341a842d35baf29699
   voie-pages: 0.4.0_vue@3.0.5
 lockfileVersion: 5.2
@@ -1610,7 +1610,7 @@ packages:
   /@vueuse/core/4.0.3_vue@3.0.5:
     dependencies:
       '@vueuse/shared': 4.0.3_vue@3.0.5
-      vue-demi: 0.5.4_vue@3.0.5
+      vue-demi: 0.6.0_vue@3.0.5
     dev: false
     peerDependencies:
       vue: '*'
@@ -1618,7 +1618,7 @@ packages:
       integrity: sha512-U30aUYjpm8wiiCzQQL9pqlCG0H4CDfIKRY2g43184FcTX2DOJWntevPpiduG7iuj+hfE15mjgU6LOModr3n/+Q==
   /@vueuse/shared/4.0.3_vue@3.0.5:
     dependencies:
-      vue-demi: 0.5.4_vue@3.0.5
+      vue-demi: 0.6.0_vue@3.0.5
     dev: false
     peerDependencies:
       vue: '*'
@@ -4994,7 +4994,7 @@ packages:
       vite: ^2.0.0-beta.1
     resolution:
       integrity: sha512-NxoueGlURbMvW4A6tBt26LQ8kw7p7QeLnGdVvfzttSeQnTHYsV1KIzhe10jRY1/91UODs4pmIPqTvRwuaatXow==
-  /vite-plugin-voie/0.7.1_cc0b40294df509831d72a57e9d5659f0:
+  /vite-plugin-voie/0.7.2_cc0b40294df509831d72a57e9d5659f0:
     dependencies:
       fast-glob: 3.2.4
       glob-to-regexp: 0.4.1
@@ -5007,7 +5007,7 @@ packages:
       vue: '*'
       vue-router: ^4.0.0-beta.4
     resolution:
-      integrity: sha512-qXb5oAe/a90RdSjzdWdjYxN8jsNLaVlRMaj3Ao99A6VxIy1PrPzdzlLYzokGZNZBV0klyIklnEEiuQLsFLgkGg==
+      integrity: sha512-YVdZkKd+xLMJZJN23q2r2dOYgPg2H4rJaQDbvFEDi1oywgRoeywrEAMfBg6sPYSO0vX0AHgGoB5mDkMtDv5M3w==
   /vite-ssg/0.2.0_437dc0204f8b7c341a842d35baf29699:
     dependencies:
       '@vue/compiler-sfc': 3.0.5_vue@3.0.5
@@ -5062,7 +5062,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-GGZ99dJbARyh6rv03dXZImGlP5WvNG382A3nIt0yX1uyqBa558L/klHWcgEJzcVkG4t16OQWwPedMR3JkeD2Qg==
-  /vue-demi/0.5.4_vue@3.0.5:
+  /vue-demi/0.6.0_vue@3.0.5:
     dependencies:
       vue: 3.0.5
     dev: false
@@ -5071,7 +5071,7 @@ packages:
       vue: ^2.6.0 || >=3.0.0-rc.1
     requiresBuild: true
     resolution:
-      integrity: sha512-m/cm/Jo+USFx4JNGvhXVuAAbeB+Dejc0O8hzarph9MMuxxcMEDxf+0UBzg79g15YwYGIToX957XvzG0xSufG9A==
+      integrity: sha512-8GEJa0mHJpYJeGeq5fD1pJct2kfdl30PHfmL1NaJ97mgKPyKojlIRt/3inGBK4Y0ylCI6T5vOo3chwpqDOq/Hw==
   /vue-eslint-parser/7.3.0_eslint@7.17.0:
     dependencies:
       debug: 4.3.1
@@ -5465,7 +5465,7 @@ specifiers:
   vite-plugin-icons: ^0.2.1
   vite-plugin-md: ^0.2.1
   vite-plugin-pwa: ^0.3.2
-  vite-plugin-voie: ^0.7.1
+  vite-plugin-voie: ^0.7.2
   vite-ssg: ^0.2.0
   voie-pages: ^0.4.0
   vue: ^3.0.5

@@ -4,12 +4,12 @@
       <carbon-campsite class="inline-block" />
     </p>
     <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
+      <a rel="noreferrer" href="https://github.com/greenskybluephish/jue" target="_blank">
+        Blue Room
       </a>
     </p>
     <p>
-      <em class="text-sm opacity-75">{{ t('intro.desc') }}</em>
+      <em class="text-sm opacity-75">the beginning of a dynasty </em>
     </p>
 
     <div class="py-4" />
@@ -17,14 +17,14 @@
     <input
       id="input"
       v-model="name"
-      :placeholder="t('intro.whats-your-name')"
+      :placeholder="'Whats your name?'"
       type="text"
       autocomplete="false"
       class="px-4 py-2 border border-gray-200 rounded text-center text-sm outline-none active:outline-none bg-transparent dark:border-gray-700"
       style="width: 250px"
       @keydown.enter="go"
     >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
+    <label class="hidden" for="input">Whats your name?</label>
 
     <div>
       <button
@@ -32,7 +32,7 @@
         :disabled="!name"
         @click="go"
       >
-        {{ t('button.go') }}
+        GO
       </button>
     </div>
   </div>
@@ -41,7 +41,6 @@
 <script setup lang='ts'>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useI18n } from 'vue-i18n'
 
 const name = ref('')
 
@@ -51,5 +50,4 @@ const go = () => {
     router.push(`/hi/${name.value}`)
 }
 
-const { t } = useI18n()
 </script>

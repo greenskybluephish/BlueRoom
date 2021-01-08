@@ -4,14 +4,14 @@ import routes from 'voie-pages'
 // progress bar
 import NProgress from 'nprogress'
 import { ViteSSG } from 'vite-ssg'
-import installPlugins from './plugins'
+// import installPlugins from './plugins'
 import App from './App.vue'
 
 export const createApp = ViteSSG(
   App,
   { routes },
   ({ app, router, isClient }) => {
-    installPlugins(app)
+
 
     if (isClient) {
       router.beforeEach(() => { NProgress.start() })
