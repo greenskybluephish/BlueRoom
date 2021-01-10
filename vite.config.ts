@@ -43,7 +43,6 @@ const config: UserConfig = {
       // as the `alias` changes the behavior of middlewares, you have to pass it to ViteComponents to do the resolving
       // allow auto load markdown components under `./src/components/`
       extensions: ['vue', 'md'],
-      dirs: ['src/components', 'src/pages'],
       // allow auto import and register components used in markdown
       customLoaderMatcher: id => id.endsWith('.md'),
 
