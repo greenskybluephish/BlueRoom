@@ -4,7 +4,7 @@
       <carbon-campsite class="inline-block" />
     </p>
     <p>
-      <a rel="noreferrer" href="https://github.com/greenskybluephish/jue" target="_blank">
+      <a rel="noreferrer" href="https://github.com/greenskybluephish/BlueRoom" target="_blank">
         Blue Room
       </a>
     </p>
