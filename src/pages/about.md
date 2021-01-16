@@ -9,8 +9,7 @@ Blue Room has **file-based routing**, **components auto importing**, **markdown 
 
 ```js
 // syntax highlighting example
-function getMoney(talent, perseverance) {
-  const money = (talent + perseverance) * time;
+function getIt()
   console.log(money)
 }
 ```

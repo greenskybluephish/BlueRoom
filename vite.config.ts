@@ -62,8 +62,8 @@ const config: UserConfig = {
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'BlueRoom',
+        short_name: 'BlueRoom',
         theme_color: '#ffffff',
         icons: [
           {
