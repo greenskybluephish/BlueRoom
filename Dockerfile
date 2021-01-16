@@ -1,7 +1,8 @@
-
 # build stage
 FROM node:lts-alpine as build-stage
 WORKDIR /BlueRoom
+RUN apk update
+RUN apk add git
 COPY package*.json ./
 RUN npx pnpm i --store=node_modules/.pnpm-store
 COPY . .
