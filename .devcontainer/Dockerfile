@@ -5,4 +5,4 @@ WORKDIR /BlueRoom
 COPY package*.json ./
 RUN npx pnpm i --store=node_modules/.pnpm-store
 COPY . .
-RUN npx pnpm run dev
+
