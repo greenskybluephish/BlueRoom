@@ -9,10 +9,6 @@
       <carbon-sun v-else />
     </a>
 
-    <!-- <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-      <carbon-language />
-    </a> -->
-
     <router-link class="icon-btn mx-2" to="/about" :title="'About'">
       <carbon-dicom-overlay />
     </router-link>

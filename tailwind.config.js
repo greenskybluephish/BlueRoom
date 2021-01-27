@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const colors = require('tailwindcss/colors')
 const typography = require('@tailwindcss/typography')
+const forms = require('@tailwindcss/forms')
 
 module.exports = {
   purge: {
@@ -24,7 +25,7 @@ module.exports = {
     opacity: ['dark', 'hover', 'active', 'focus', 'disabled'],
   },
   darkMode: 'class',
-  plugins: [typography],
+  plugins: [typography, forms],
   theme: {
     extend: {
       colors: {

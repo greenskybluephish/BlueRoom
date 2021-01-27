@@ -5,10 +5,11 @@
     "build": "cross-env NODE_ENV=production vite-ssg build --script async"
   },
   "dependencies": {
+    "@braid/vue-formulate": "^2.5.0",
+    "@tailwindcss/forms": "^0.2.1",
     "@vueuse/core": "^4.0.4",
     "nprogress": "^0.2.0",
     "vue": "^3.0.5",
-    "vue-i18n": "9.0.0-rc.1",
     "vue-router": "^4.0.2"
   },
   "devDependencies": {

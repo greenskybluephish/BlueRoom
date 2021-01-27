@@ -8,11 +8,14 @@ import Markdown from 'vite-plugin-md'
 import Prism from 'markdown-it-prism'
 import { VitePWA } from 'vite-plugin-pwa'
 
+
+
 const config: UserConfig = {
   alias: {
     '/~/': `${path.resolve(__dirname, 'src')}/`,
   },
   plugins: [
+ 
     Vue({
       ssr: !!process.env.SSG,
     }),
