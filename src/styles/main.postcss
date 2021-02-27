@@ -3,6 +3,14 @@
 @import 'tailwindcss/utilities';
 @import './prism.css';
 
+
+@layer base {
+    @font-face {
+    font-family: 'Braggadocio';
+    src: url(../../public/BRAGGA.ttf) format('truetype');
+  }
+}
+
 html,
 body,
 #app {
@@ -49,3 +57,4 @@ html.dark {
 .prose pre {
   text-align: left;
 }
+

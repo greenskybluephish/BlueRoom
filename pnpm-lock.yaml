@@ -1,5 +1,4 @@
 dependencies:
-  '@braid/vue-formulate': 2.5.0
   '@tailwindcss/forms': 0.2.1
   '@vueuse/core': 4.0.5_vue@3.0.5
   nprogress: 0.2.0
@@ -1011,19 +1010,6 @@ packages:
       to-fast-properties: 2.0.0
     resolution:
       integrity: sha512-lnIX7piTxOH22xE7fDXDbSHg9MM1/6ORnafpJmov5rs0kX5g4BZxeXNJLXsMRiO0U5Rb8/FvMS6xlTnTHvxonQ==
-  /@braid/vue-formulate-i18n/1.14.0:
-    dev: false
-    resolution:
-      integrity: sha512-V+k4XD5gpjT9y1tharcLjJ7Ynn1MTFN+Oinjo7BD/hsVc217U9eYzRQ9UFMBb+TOegHS/mVhwhwkPVsHOLFlkg==
-  /@braid/vue-formulate/2.5.0:
-    dependencies:
-      '@braid/vue-formulate-i18n': 1.14.0
-      is-plain-object: 3.0.1
-      is-url: 1.2.4
-      nanoid: 2.1.11
-    dev: false
-    resolution:
-      integrity: sha512-UiTIxmcELL2xiOgL9W6HOdw5GfEnhvCOGyjz4+/R3XdAVHyYD86zwNWIvmyPsaPuoE4xEGYx5ELUd7FOU1QZTw==
   /@eslint/eslintrc/0.2.2:
     dependencies:
       ajv: 6.12.6
@@ -1583,7 +1569,7 @@ packages:
   /@vueuse/core/4.0.5_vue@3.0.5:
     dependencies:
       '@vueuse/shared': 4.0.5_vue@3.0.5
-      vue-demi: 0.6.0_vue@3.0.5
+      vue-demi: 0.7.0_vue@3.0.5
     dev: false
     peerDependencies:
       vue: '*'
@@ -1591,7 +1577,7 @@ packages:
       integrity: sha512-Kfy5ys9o1XIY6NwX9O7iad4/FbHrcDuP/LtsgIFvl7XDQtbYArHu5ZSOQyBwqE32TdAqnFi5sYd4vjSvVvpD4A==
   /@vueuse/shared/4.0.5_vue@3.0.5:
     dependencies:
-      vue-demi: 0.6.0_vue@3.0.5
+      vue-demi: 0.7.0_vue@3.0.5
     dev: false
     peerDependencies:
       vue: '*'
@@ -3208,12 +3194,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
-  /is-plain-object/3.0.1:
-    dev: false
-    engines:
-      node: '>=0.10.0'
-    resolution:
-      integrity: sha512-Xnpx182SBMrr/aBik8y+GuR4U1L9FqMSojwDQwPMmxyC6bvEqly9UBCxhauBF5vNh2gwWJNX6oDV7O+OM4z34g==
   /is-potential-custom-element-name/1.0.0:
     dev: true
     resolution:
@@ -3256,10 +3236,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
-  /is-url/1.2.4:
-    dev: false
-    resolution:
-      integrity: sha512-ITvGim8FhRiYe4IQ5uHSkj7pVaPDrCTkNd3yq3cV7iZAcJdHTUMPMEHcqSOy9xZ9qFenQCvi+2wjH9a1nXqHww==
   /isarray/1.0.0:
     dev: true
     resolution:
@@ -3624,10 +3600,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==
-  /nanoid/2.1.11:
-    dev: false
-    resolution:
-      integrity: sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
   /nanoid/3.1.20:
     dev: true
     engines:
@@ -4248,7 +4220,7 @@ packages:
       request-promise-core: 1.1.4_request@2.88.2
       stealthy-require: 1.1.1
       tough-cookie: 2.5.0
-    deprecated: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+    deprecated: 'request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142'
     dev: true
     engines:
       node: '>=0.12.0'
@@ -4278,7 +4250,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
+    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
     dev: true
     engines:
       node: '>= 6'
@@ -5066,16 +5038,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-GGZ99dJbARyh6rv03dXZImGlP5WvNG382A3nIt0yX1uyqBa558L/klHWcgEJzcVkG4t16OQWwPedMR3JkeD2Qg==
-  /vue-demi/0.6.0_vue@3.0.5:
+  /vue-demi/0.7.0_vue@3.0.5:
     dependencies:
       vue: 3.0.5
     dev: false
     hasBin: true
     peerDependencies:
+      '@vue/composition-api': ^1.0.0-beta.1
       vue: ^2.6.0 || >=3.0.0-rc.1
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
     requiresBuild: true
     resolution:
-      integrity: sha512-8GEJa0mHJpYJeGeq5fD1pJct2kfdl30PHfmL1NaJ97mgKPyKojlIRt/3inGBK4Y0ylCI6T5vOo3chwpqDOq/Hw==
+      integrity: sha512-yOQ/BMfvTFbguwxQ1h6USEFkxvOI8ThhyZ1+57vlOl4jBZKC6ThmkzuQv4KOv4ItdxTj/foZBR6Lr5+tcr7nqg==
   /vue-eslint-parser/7.3.0_eslint@7.17.0:
     dependencies:
       debug: 4.3.1
@@ -5432,7 +5408,6 @@ packages:
       integrity: sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
 specifiers:
   '@antfu/eslint-config-vue': ^0.4.3
-  '@braid/vue-formulate': ^2.5.0
   '@iconify/json': ^1.1.283
   '@tailwindcss/forms': ^0.2.1
   '@tailwindcss/typography': ^0.3.1
