@@ -2,7 +2,7 @@
   <div>
     <p class="text-4xl">
       <carbon-campsite class="inline-block" />
-      <carbon-add-filled/>
+      <carbon-add-filled />
     </p>
     <p>
       <a rel="noreferrer" href="https://github.com/greenskybluephish/BlueRoom" target="_blank">
@@ -26,16 +26,13 @@
       @keydown.enter="go"
     >
     <label class="hidden" for="input">Whats your name?</label>
-
-
-
     <div>
       <button
         class="btn m-3 text-sm"
         :disabled="!name"
         @click="go"
-      > Go
-       
+      >
+        Go
       </button>
     </div>
   </div>

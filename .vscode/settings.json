@@ -2,5 +2,6 @@
   "vetur.experimental.templateInterpolationService": true,
   "cSpell.words": [
     "Vitesse"
-  ]
+  ],
+  "volar.tsPlugin": true
 }
