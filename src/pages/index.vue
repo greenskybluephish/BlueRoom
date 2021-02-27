@@ -1,40 +1,15 @@
 <template>
   <div>
-    <p class="text-4xl">
-      <carbon-campsite class="inline-block" />
+    <p class="text-5xl md:text-6xl title-font">
+        AIRSHOW
     </p>
-    <p>
-      <a rel="noreferrer" href="https://github.com/greenskybluephish/BlueRoom" target="_blank">
-        Blue Room
-      </a>
-    </p>
-    <p>
-      <em class="text-sm opacity-75">the beginning of a dynasty </em>
-    </p>
+ 
 
     <div class="py-4" />
-
-    <input
-      id="input"
-      v-model="name"
-      :placeholder="'Whats your name?'"
-      type="text"
-      autocomplete="false"
-      class="px-4 py-2 border border-gray-200 rounded text-center text-sm outline-none active:outline-none bg-transparent dark:border-gray-700"
-      style="width: 250px"
-      @keydown.enter="go"
-    >
-    <label class="hidden" for="input">Whats your name?</label>
-
-    <div>
-      <button
-        class="btn m-3 text-sm"
-        :disabled="!name"
-        @click="go"
-      >
-        GO
-      </button>
-    </div>
+    <p>
+      <em class="text-2xl opacity-75">We're a fuckin' jamband </em>
+    </p>
+    <div class="py-8" />
   </div>
 </template>
 
@@ -51,3 +26,9 @@ const go = () => {
 }
 
 </script>
+
+<style>
+  .title-font {
+    font-family: Braggadocio;
+  }
+</style>
