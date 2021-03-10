@@ -7,7 +7,7 @@
 
     <div class="py-4" />
     <p>
-      <em class="text-2xl opacity-75">We're a jamband </em>
+      <em class="text-2xl opacity-75">We're a fuckin' jamband </em>
     </p>
     <div class="py-8" />
   </div>
