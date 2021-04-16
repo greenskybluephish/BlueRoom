@@ -21,8 +21,7 @@ const name = ref('')
 
 const router = useRouter()
 const go = () => {
-  if (name.value)
-    router.push(`/hi/${name.value}`)
+
 }
 
 </script>
